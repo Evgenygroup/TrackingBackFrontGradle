@@ -91,7 +91,7 @@ test {
 }
 
 flyway {
-	url = 'jdbc:mysql://localhost:3306/tracking_service?autoReconnect=true&useSSL=false&createDatabaseIfNotExist=true&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC'
+	url = 'jdbc:mysql://localhost:3306/tracking_service?autoReconnect=true&useSSL=false&createDatabaseIfNotExist=true&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC&lowerCaseTableNames=true'
 	user = 'root'
 	password = 1234
 	schemas = ['tracking_service']
